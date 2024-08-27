@@ -1,0 +1,343 @@
+.contanier{
+    display: flex;
+    
+}
+
+h1{
+    justify-content:center;
+    align-items: center;
+    justify-items: center;
+    font-family: ;
+    display: flex;
+    color: #223142);
+    
+
+}
+body {
+    font-family:;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color:;
+    position: relative;
+}
+
+.logo {
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    align-self: auto;
+    height: 200px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    animation: rotateScale 5s infinite ease-in-out;
+    transition: transform 0.5s ease-in-out;
+
+
+}
+
+#searchBar {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: 3px solid #223142;
+    border-radius: 50px;
+}
+
+nav {
+    border: 5px solid #223142;
+    background-color: #f0b634;
+    color: #f8f4f4;
+    padding: 10px;
+    color: #223142;
+    
+    
+}
+/*this for the  catagory margin*/
+nav ul {
+    font-weight: bolder;
+    font: 2.70em;
+    font-size: x-large;
+    list-style: none;
+    padding: 10px;
+    text-size-adjust: 2.25em;
+
+}
+/*this for the black catagory and text margin*/
+nav li {
+    text-size-adjust: 1.25em;
+    display: inline;
+    margin: 72px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    text-size-adjust: 1.25em;
+
+
+    
+}
+
+nav li:hover {
+    text-decoration: underline 
+
+}
+/*this for items look */
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 30px;
+}
+/*this for items عشان يكون ترتيبهم للاسفل مش بالعرض */
+#productList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    color: #fff;
+    border: 4px solid #f0b634;
+    background-color: #223142;
+    margin: 40px;/*المسافه بين الايتمز */
+    border-radius: 25px;
+    padding: 11px;
+    cursor: pointer;
+    width: 200px;/* for every box */
+    transition: box-shadow 0.2s;
+}
+
+.product:hover {
+    box-shadow: 10px 10px 10px #f0b634;/*shadow when the mouse are in box*/
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+    border-radius: 17px;
+}
+
+aside {
+    font-weight: bold;
+    width: 300px;
+    margin: 50px;
+    align-items: left;
+    border: 5px solid #f0b634;
+    border-radius: 15px;
+    max-width: 200px;
+    max-height: 1200px;
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+    background: #223142;
+    color: #f9f8f8;
+    cursor: pointer;
+
+
+    box-shadow: 5px 10px 10px #89867f;/*shadow when the mouse are in box*/
+
+
+}
+
+#itemDetails {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;/*the num of page place*/
+    margin-top: 30px;
+    color: #223142;
+}
+
+#pagination button {
+    border: #272020;
+    background-color: #223142;
+    color: white;
+    border-radius: 50px;
+    padding: 15px;
+    margin: 10 10 10 10;
+    cursor: pointer;
+}
+#totalPrice{
+    color: #f0b634;
+    
+}
+@keyframes rotateScale {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+    50% {
+        transform: rotate(90deg) scale(1);
+    }
+    100% {
+        transform: rotate(360deg) scale(1);
+    }
+}
+#clearCart {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f0b634;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+#checkout {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #223142;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+#paymentMethod {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* In styles.css or a style block */
+.admin-link {
+    color: #223142;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.admin-link:hover {
+    text-decoration: underline;
+}
+#adminbutton,#userbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: right;
+    width: 90px;
+    height: 40px;
+    background-color: #223142;
+    border: none;
+    border-radius: 30px;
+    margin-top: 5px;
+    margin-left: 15px;
+    color: white;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    position: flex;
+    width: 100%;
+    margin-top
+}
+
+footer p {
+    margin: 0;
+}
+@media only screen and (min-width: 1200) {
+    .container {
+        flex-direction: row;
+    }
+
+    main {
+        width: 75%;
+    }
+
+    aside {
+        position: sticky;
+        top: 20px;
+        width: 300px;
+        max-height: 1200px;
+    }
+
+    #searchBar {
+        width: 400px;
+    }
+}
+
+/* Medium screens (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        flex-direction: column;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+        margin: 20px 0;
+        position: relative;
+    }
+
+    #searchBar {
+        width: 300px;
+    }
+}
+
+/* Small screens (phones) */
+@media only screen and (max-width: 767px) {
+    .container {
+        flex-direction: column;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        margin: 10px 0;
+    }
+
+    nav ul {
+        font-size: large;
+        padding: 0;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        width: 100%;
+        padding: 15px;
+    }
+
+    #productList {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product {
+        width: 150px;
+        margin: 10px;
+    }
+
+    aside {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    #searchBar {
+        width: 100%;
+    }
+}

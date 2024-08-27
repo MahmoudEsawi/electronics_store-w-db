@@ -1,0 +1,796 @@
+
+[
+    {
+        "id": 1,
+        "name": "Arduino Uno",
+        "image": "images/Arduino_Uno.jpeg",
+        "details": "The Arduino Uno is a microcontroller board based on the ATmega328.",
+        "category": "Arduino",
+        "price": 25.00
+    },
+    {
+        "id": 2,
+        "name": "Ultrasonic Sensor",
+        "image": "images/ultrasonic_sensor.png",
+        "details": "HC-SR04 ultrasonic sensor for measuring distance.",
+        "category": "Sensors",
+        "price": 6.00
+    },
+    {
+        "id": 3,
+        "name": "1kΩ Resistor",
+        "image": "images/resistor.jpeg",
+        "details": "Standard 1kΩ resistor.",
+        "category": "Resistors",
+        "price": 0.10
+    },
+    {
+        "id": 4,
+        "name": "Electrolytic Capacitor",
+        "image": "images/capacitor.jpeg",
+        "details": "100µF electrolytic capacitor.",
+        "category": "Capacitors",
+        "price": 0.50
+    },
+    {
+        "id": 5,
+        "name": "Breadboard",
+        "image": "images/breadboard.jpg",
+        "details": "A standard breadboard for prototyping.",
+        "category": "Prototyping",
+        "price": 3.00
+    },
+    {
+        "id": 6,
+        "name": "Jumper Wires",
+        "image": "images/jumper_wires.jpg",
+        "details": "Pack of 65 flexible jumper wires.",
+        "category": "Wires",
+        "price": 2.50
+    },
+    {
+        "id": 7,
+        "name": "LED (Red)",
+        "image": "images/red_led.jpeg",
+        "details": "5mm red LED.",
+        "category": "LEDs",
+        "price": 0.20
+    },
+    {
+        "id": 8,
+        "name": "LED (Green)",
+        "image": "images/green_led.jpg",
+        "details": "5mm green LED.",
+        "category": "LEDs",
+        "price": 0.20
+    },
+    {
+        "id": 9,
+        "name": "LED (Blue)",
+        "image": "images/blue_led.jpg",
+        "details": "5mm blue LED.",
+        "category": "LEDs",
+        "price": 0.20
+    },
+    {
+        "id": 10,
+        "name": "Temperature Sensor",
+        "image": "images/temperature_sensor.jpg",
+        "details": "LM35 temperature sensor.",
+        "category": "Sensors",
+        "price": 1.00
+    },
+    {
+        "id": 11,
+        "name": "Servo Motor",
+        "image": "images/servo_motor.jpg",
+        "details": "Standard 9g servo motor.",
+        "category": "Motors",
+        "price": 3.50
+    },
+    {
+        "id": 12,
+        "name": "DC Motor",
+        "image": "images/dc_motor.jpg",
+        "details": "Small DC motor.",
+        "category": "Motors",
+        "price": 2.00
+    },
+    {
+        "id": 13,
+        "name": "L298N Motor Driver",
+        "image": "images/l298n.jpg",
+        "details": "Dual H-Bridge motor driver.",
+        "category": "Drivers",
+        "price": 4.00
+    },
+    {
+        "id": 14,
+        "name": "9V Battery",
+        "image": "images/9v_battery.jpg",
+        "details": "Standard 9V battery.",
+        "category": "Power",
+        "price": 1.50
+    },
+    {
+        "id": 15,
+        "name": "Battery Holder",
+        "image": "images/battery_holder.jpg.webp",
+        "details": "9V battery holder.",
+        "category": "Power",
+        "price": 0.75
+    },
+    {
+        "id": 16,
+        "name": "Switch",
+        "image": "images/switch.jpg",
+        "details": "Miniature toggle switch.",
+        "category": "Switches",
+        "price": 0.30
+    },
+    {
+        "id": 17,
+        "name": "Push Button",
+        "image": "images/push_button.jpg",
+        "details": "Momentary push button.",
+        "category": "Buttons",
+        "price": 0.10
+    },
+    {
+        "id": 18,
+        "name": "Potentiometer",
+        "image": "images/potentiometer.jpg",
+        "details": "10kΩ potentiometer.",
+        "category": "Resistors",
+        "price": 0.40
+    },
+    {
+        "id": 19,
+        "name": "Buzzer",
+        "image": "images/buzzer.jpg",
+        "details": "Piezo buzzer.",
+        "category": "Sound",
+        "price": 0.50
+    },
+    {
+        "id": 20,
+        "name": "Relay Module",
+        "image": "images/relay_module.jpg",
+        "details": "5V relay module.",
+        "category": "Modules",
+        "price": 1.50
+    },
+    {
+        "id": 21,
+        "name": "Infrared Sensor",
+        "image": "images/infrared_sensor.jpg",
+        "details": "IR sensor for object detection.",
+        "category": "Sensors",
+        "price": 1.00
+    },
+    {
+        "id": 22,
+        "name": "Tilt Sensor",
+        "image": "images/tilt_sensor.jpg",
+        "details": "Tilt sensor module.",
+        "category": "Sensors",
+        "price": 1.20
+    },
+    {
+        "id": 23,
+        "name": "Soil Moisture Sensor",
+        "image": "images/soil_moisture_sensor.jpg",
+        "details": "Sensor to measure soil moisture.",
+        "category": "Sensors",
+        "price": 1.50
+    },
+    {
+        "id": 24,
+        "name": "Hall Effect Sensor",
+        "image": "images/hall_effect_sensor.jpg",
+        "details": "A3144 hall effect sensor.",
+        "category": "Sensors",
+        "price": 0.80
+    },
+    {
+        "id": 25,
+        "name": "Gas Sensor",
+        "image": "images/gas_sensor.jpg",
+        "details": "MQ-2 gas sensor module.",
+        "category": "Sensors",
+        "price": 2.50
+    },
+    {
+        "id": 26,
+        "name": "Flame Sensor",
+        "image": "images/flame_sensor.jpg",
+        "details": "Infrared flame sensor module.",
+        "category": "Sensors",
+        "price": 1.20
+    },
+    {
+        "id": 27,
+        "name": "Light Sensor",
+        "image": "images/light_sensor.jpg",
+        "details": "LDR (light dependent resistor) module.",
+        "category": "Sensors",
+        "price": 0.60
+    },
+    {
+        "id": 28,
+        "name": "Sound Sensor",
+        "image": "images/sound_sensor.jpg",
+        "details": "Microphone sound sensor module.",
+        "category": "Sensors",
+        "price": 1.00
+    },
+    {
+        "id": 29,
+        "name": "Pressure Sensor",
+        "image": "images/pressure_sensor.jpg",
+        "details": "BMP180 pressure sensor module.",
+        "category": "Sensors",
+        "price": 3.00
+    },
+    {
+        "id": 30,
+        "name": "Rotary Encoder",
+        "image": "images/rotary_encoder.jpg",
+        "details": "Incremental rotary encoder.",
+        "category": "Sensors",
+        "price": 1.50
+    },
+    {
+        "id": 31,
+        "name": "Tilt Switch",
+        "image": "images/tilt_switch.jpg",
+        "details": "Mercury tilt switch.",
+        "category": "Switches",
+        "price": 0.50
+    },
+    {
+        "id": 32,
+        "name": "Phototransistor",
+        "image": "images/phototransistor.jpg",
+        "details": "NPN phototransistor.",
+        "category": "Transistors",
+        "price": 0.30
+    },
+    {
+        "id": 33,
+        "name": "Piezo Element",
+        "image": "images/piezo_element.jpg",
+        "details": "Small piezo element for sound detection.",
+        "category": "Sound",
+        "price": 0.20
+    },
+    {
+        "id": 34,
+        "name": "MOSFET",
+        "image": "images/mosfet.jpg",
+        "details": "N-channel MOSFET.",
+        "category": "Transistors",
+        "price": 0.40
+    },
+    {
+        "id": 35,
+        "name": "Photoresistor",
+        "image": "images/photoresistor.jpg",
+        "details": "Light-dependent resistor (LDR).",
+        "category": "Resistors",
+        "price": 0.20
+    },
+    {
+        "id": 36,
+        "name": "Thermistor",
+        "image": "images/thermistor.jpg",
+        "details": "10kΩ thermistor.",
+        "category": "Sensors",
+        "price": 0.50
+    },
+    {
+        "id": 37,
+        "name": "Voltage Regulator",
+        "image": "images/voltage_regulator.jpg",
+        "details": "LM7805 voltage regulator.",
+        "category": "Power",
+        "price": 0.60
+    },
+    {
+        "id": 38,
+        "name": "Diode",
+        "image": "images/diode.jpg",
+        "details": "1N4007 rectifier diode.",
+        "category": "Diodes",
+        "price": 0.10
+    },
+    {
+        "id": 39,
+        "name": "Zener Diode",
+        "image": "images/zener_diode.jpg",
+        "details": "5.1V Zener diode.",
+        "category": "Diodes",
+        "price": 0.15
+    },
+    {
+        "id": 40,
+        "name": "Inductor",
+        "image": "images/inductor.jpg",
+        "details": "100µH inductor.",
+        "category": "Inductors",
+        "price": 0.30
+    },
+    {
+        "id": 41,
+        "name": "Crystal Oscillator",
+        "image": "images/crystal_oscillator.jpg",
+        "details": "16MHz crystal oscillator.",
+        "category": "Oscillators",
+        "price": 0.50
+    },
+    {
+        "id": 42,
+        "name": "Piezo Buzzer",
+        "image": "images/piezo_buzzer.jpg",
+        "details": "Passive piezo buzzer.",
+        "category": "Sound",
+        "price": 0.40
+    },
+    {
+        "id": 43,
+        "name": "Vibration Motor",
+        "image": "images/vibration_motor.jpg",
+        "details": "Small vibration motor.",
+        "category": "Motors",
+        "price": 1.00
+    },
+    {
+        "id": 44,
+        "name": "Coin Cell Battery",
+        "image": "images/coin_cell_battery.jpg",
+        "details": "CR2032 coin cell battery.",
+        "category": "Power",
+        "price": 0.50
+    },
+    {
+        "id": 45,
+        "name": "Battery Clip",
+        "image": "images/battery_clip.jpg",
+        "details": "Battery clip for 9V battery.",
+        "category": "Power",
+        "price": 0.30
+    },
+    {
+        "id": 46,
+        "name": "Piezo Speaker",
+        "image": "images/piezo_speaker.jpg",
+        "details": "Mini piezo speaker.",
+        "category": "Sound",
+        "price": 0.80
+    },
+    {
+        "id": 47,
+        "name": "USB Cable",
+        "image": "images/usb_cable.jpg",
+        "details": "Standard USB to micro USB cable.",
+        "category": "Cables",
+        "price": 1.50
+    },
+    {
+        "id": 48,
+        "name": "RGB LED",
+        "image": "images/rgb_led.jpg",
+        "details": "Common cathode RGB LED.",
+        "category": "LEDs",
+        "price": 0.30
+    },
+    {
+        "id": 49,
+        "name": "Tilt Switch",
+        "image": "images/tilt_switch.jpg",
+        "details": "Mercury tilt switch.",
+        "category": "Switches",
+        "price": 0.40
+    },
+    {
+        "id": 50,
+        "name": "Stepper Motor",
+        "image": "images/stepper_motor.jpg",
+        "details": "28BYJ-48 stepper motor.",
+        "category": "Motors",
+        "price": 4.00
+    },
+    {
+        "id": 51,
+        "name": "Motor Driver",
+        "image": "images/motor_driver.jpg",
+        "details": "L293D motor driver IC.",
+        "category": "Drivers",
+        "price": 2.00
+    },
+    {
+        "id": 52,
+        "name": "LCD Display",
+        "image": "images/lcd_display.jpg",
+        "details": "16x2 character LCD display.",
+        "category": "Displays",
+        "price": 3.00
+    },
+    {
+        "id": 53,
+        "name": "OLED Display",
+        "image": "images/oled_display.jpg",
+        "details": "0.96 inch OLED display.",
+        "category": "Displays",
+        "price": 5.00
+    },
+    {
+        "id": 54,
+        "name": "Joystick Module",
+        "image": "images/joystick_module.jpg",
+        "details": "Analog joystick module.",
+        "category": "Modules",
+        "price": 2.50
+    },
+    {
+        "id": 55,
+        "name": "RFID Module",
+        "image": "images/rfid_module.jpg",
+        "details": "RC522 RFID module.",
+        "category": "Modules",
+        "price": 3.50
+    },
+    {
+        "id": 56,
+        "name": "ESP8266 Module",
+        "image": "images/esp8266_module.jpg",
+        "details": "ESP8266 Wi-Fi module.",
+        "category": "Modules",
+        "price": 4.00
+    },
+    {
+        "id": 57,
+        "name": "Bluetooth Module",
+        "image": "images/bluetooth_module.jpg",
+        "details": "HC-05 Bluetooth module.",
+        "category": "Modules",
+        "price": 5.00
+    },
+    {
+        "id": 58,
+        "name": "GSM Module",
+        "image": "images/gsm_module.jpg",
+        "details": "SIM800L GSM module.",
+        "category": "Modules",
+        "price": 8.00
+    },
+    {
+        "id": 59,
+        "name": "GPS Module",
+        "image": "images/gps_module.jpg",
+        "details": "NEO-6M GPS module.",
+        "category": "Modules",
+        "price": 10.00
+    },
+    {
+        "id": 60,
+        "name": "SD Card Module",
+        "image": "images/sd_card_module.jpg",
+        "details": "MicroSD card module.",
+        "category": "Modules",
+        "price": 1.50
+    },
+    {
+        "id": 61,
+        "name": "Real Time Clock Module",
+        "image": "images/rtc_module.jpg",
+        "details": "DS1307 RTC module.",
+        "category": "Modules",
+        "price": 2.00
+    },
+    {
+        "id": 62,
+        "name": "Microphone Module",
+        "image": "images/microphone_module.jpg",
+        "details": "Microphone sound sensor module.",
+        "category": "Sound",
+        "price": 1.50
+    },
+    {
+        "id": 63,
+        "name": "PIR Motion Sensor",
+        "image": "images/pir_motion_sensor.jpg",
+        "details": "HC-SR501 PIR motion sensor.",
+        "category": "Sensors",
+        "price": 2.00
+    },
+    {
+        "id": 64,
+        "name": "Laser Module",
+        "image": "images/laser_module.jpg",
+        "details": "5mW red laser module.",
+        "category": "Modules",
+        "price": 1.50
+    },
+    {
+        "id": 65,
+        "name": "Voltage Sensor",
+        "image": "images/voltage_sensor.jpg",
+        "details": "Voltage sensor module.",
+        "category": "Sensors",
+        "price": 1.00
+    },
+    {
+        "id": 66,
+        "name": "Current Sensor",
+        "image": "images/current_sensor.jpg",
+        "details": "ACS712 current sensor.",
+        "category": "Sensors",
+        "price": 2.00
+    },
+    {
+        "id": 67,
+        "name": "Water Level Sensor",
+        "image": "images/water_level_sensor.jpg",
+        "details": "Water level detection sensor.",
+        "category": "Sensors",
+        "price": 1.50
+    },
+    {
+        "id": 68,
+        "name": "Touch Sensor",
+        "image": "images/touch_sensor.jpg",
+        "details": "TTP223 capacitive touch sensor.",
+        "category": "Sensors",
+        "price": 1.00
+    },
+    {
+        "id": 69,
+        "name": "IR Receiver Module",
+        "image": "images/ir_receiver.jpg",
+        "details": "KY-022 IR receiver module.",
+        "category": "Modules",
+        "price": 1.00
+    },
+    {
+        "id": 70,
+        "name": "Heat Sink",
+        "image": "images/heat_sink.jpg",
+        "details": "Aluminum heat sink for ICs.",
+        "category": "Components",
+        "price": 0.50
+    },
+    {
+        "id": 71,
+        "name": "Motor Driver Shield",
+        "image": "images/motor_driver_shield.jpg",
+        "details": "L293D motor driver shield for Arduino.",
+        "category": "Shields",
+        "price": 5.00
+    },
+    {
+        "id": 72,
+        "name": "Proto Shield",
+        "image": "images/proto_shield.jpg",
+        "details": "Prototyping shield for Arduino.",
+        "category": "Shields",
+        "price": 4.00
+    },
+    {
+        "id": 73,
+        "name": "Relay Shield",
+        "image": "images/relay_shield.jpg",
+        "details": "Relay shield for Arduino.",
+        "category": "Shields",
+        "price": 6.00
+    },
+    {
+        "id": 74,
+        "name": "Wi-Fi Shield",
+        "image": "images/wifi_shield.jpg",
+        "details": "Wi-Fi shield for Arduino.",
+        "category": "Shields",
+        "price": 10.00
+    },
+    {
+        "id": 75,
+        "name": "Ethernet Shield",
+        "image": "images/ethernet_shield.jpg.webp",
+        "details": "Ethernet shield for Arduino.",
+        "category": "Shields",
+        "price": 8.00
+    },
+    {
+        "id": 76,
+        "name": "LCD Keypad Shield",
+        "image": "images/lcd_keypad_shield.jpg",
+        "details": "LCD and keypad shield for Arduino.",
+        "category": "Shields",
+        "price": 6.00
+    },
+    {
+        "id": 77,
+        "name": "Battery Shield",
+        "image": "images/battery_shield.jpg",
+        "details": "Battery shield for Arduino.",
+        "category": "Shields",
+        "price": 7.00
+    },
+    {
+        "id": 78,
+        "name": "Grove Base Shield",
+        "image": "images/grove_base_shield.jpg",
+        "details": "Grove base shield for Arduino.",
+        "category": "Shields",
+        "price": 5.00
+    },
+    {
+        "id": 79,
+        "name": "Breadboard Power Supply",
+        "image": "images/breadboard_power_supply.jpg",
+        "details": "5V/3.3V breadboard power supply module.",
+        "category": "Power",
+        "price": 2.00
+    },
+    {
+        "id": 80,
+        "name": "Arduino Nano",
+        "image": "images/arduino_nano.jpg.png",
+        "details": "Arduino Nano microcontroller board.",
+        "category": "Arduino",
+        "price": 20.00
+    },
+    {
+        "id": 81,
+        "name": "Arduino Mega",
+        "image": "images/arduino_mega.jpg",
+        "details": "Arduino Mega 2560 microcontroller board.",
+        "category": "Arduino",
+        "price": 35.00
+    },
+    {
+        "id": 82,
+        "name": "Arduino Pro Mini",
+        "image": "images/arduino_pro_mini.jpg",
+        "details": "Arduino Pro Mini microcontroller board.",
+        "category": "Arduino",
+        "price": 18.00
+    },
+    {
+        "id": 83,
+        "name": "Raspberry Pi",
+        "image": "images/raspberry_pi.jpg",
+        "details": "Raspberry Pi 3 Model B.",
+        "category": "Raspberry Pi",
+        "price": 40.00
+    },
+    {
+        "id": 84,
+        "name": "Raspberry Pi Zero",
+        "image": "images/raspberry_pi_zero.jpg",
+        "details": "Raspberry Pi Zero W.",
+        "category": "Raspberry Pi",
+        "price": 15.00
+    },
+    {
+        "id": 85,
+        "name": "Raspberry Pi Camera",
+        "image": "images/raspberry_pi_camera.jpg.webp",
+        "details": "Camera module for Raspberry Pi.",
+        "category": "Raspberry Pi",
+        "price": 25.00
+    },
+    {
+        "id": 86,
+        "name": "Raspberry Pi Case",
+        "image": "images/raspberry_pi_case.jpg.webp",
+        "details": "Protective case for Raspberry Pi.",
+        "category": "Raspberry Pi",
+        "price": 10.00
+    },
+    {
+        "id": 87,
+        "name": "ESP32 Module",
+        "image": "images/esp32_module.jpg",
+        "details": "ESP32 Wi-Fi and Bluetooth module.",
+        "category": "Modules",
+        "price": 8.00
+    },
+    {
+        "id": 88,
+        "name": "NodeMCU",
+        "image": "images/nodemcu.jpg",
+        "details": "ESP8266 NodeMCU development board.",
+        "category": "Modules",
+        "price": 6.00
+    },
+    {
+        "id": 89,
+        "name": "PCB Prototype Board",
+        "image": "images/pcb_prototype_board.jpg",
+        "details": "Double-sided PCB prototype board.",
+        "category": "Prototyping",
+        "price": 2.00
+    },
+    {
+        "id": 90,
+        "name": "Pin Headers",
+        "image": "images/pin_headers.jpg",
+        "details": "Pack of 40 pin headers.",
+        "category": "Components",
+        "price": 1.00
+    },
+    {
+        "id": 91,
+        "name": "Heat Shrink Tubing",
+        "image": "images/heat_shrink_tubing.jpg",
+        "details": "Pack of heat shrink tubing.",
+        "category": "Components",
+        "price": 2.00
+    },
+    {
+        "id": 92,
+        "name": "Proto Shield",
+        "image": "images/proto_shield.jpg",
+        "details": "Prototyping shield for Arduino.",
+        "category": "Shields",
+        "price": 4.00
+    },
+    {
+        "id": 93,
+        "name": "OLED Display",
+        "image": "images/oled_display.jpg",
+        "details": "0.96 inch OLED display.",
+        "category": "Displays",
+        "price": 5.00
+    },
+    {
+        "id": 94,
+        "name": "Grove Base Shield",
+        "image": "images/grove_base_shield.jpg",
+        "details": "Grove base shield for Arduino.",
+        "category": "Shields",
+        "price": 5.00
+    },
+   
+    {
+        "id": 96,
+        "name": "Motor Driver Shield",
+        "image": "images/motor_driver_shield.jpg",
+        "details": "L293D motor driver shield for Arduino.",
+        "category": "Shields",
+        "price": 5.00
+    },
+    {
+        "id": 97,
+        "name": "Battery Shield",
+        "image": "images/battery_shield.jpg",
+        "details": "Battery shield for Arduino.",
+        "category": "Shields",
+        "price": 7.00
+    },
+    {
+        "id": 98,
+        "name": "LCD Display",
+        "image": "images/lcd_display.jpg",
+        "details": "16x2 character LCD display.",
+        "category": "Displays",
+        "price": 3.00
+    },
+    {
+        "id": 99,
+        "name": "Laser Module",
+        "image": "images/laser_module.jpg",
+        "details": "5mW red laser module.",
+        "category": "Modules",
+        "price": 1.50
+    },
+    {
+        "id": 100,
+        "name": "RGB LED",
+        "image": "images/rgb_led.jpg",
+        "details": "Common cathode RGB LED.",
+        "category": "LEDs",
+        "price": 0.30
+    }
+]
